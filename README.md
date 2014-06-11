@@ -1,0 +1,4 @@
+icase
+=====
+
+Case insensitive lookups
