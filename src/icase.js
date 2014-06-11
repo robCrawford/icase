@@ -1,9 +1,9 @@
 /*
   Case and type insensitive lookups
-
   Example:
-  	//To match {"Aaa": "Xyz"}
-  	icase.match( icase.get("aaa"), "xyz" );
+  	var data = {"Aaa": "Xyz"};
+  	icase.setSrc(data);
+  	var isMatch = icase.match( icase.get("aaa"), "xyz" );
 */
 (function(window, namespace){
 	"use strict";
